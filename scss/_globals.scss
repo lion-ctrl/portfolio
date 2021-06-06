@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto";
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.container {
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    color: $secondary;
+    margin-bottom: 5rem;
+	font-size: 3rem;
+}
+
+.section {
+	padding: 100px 0 50px 0;
+}
+
+.grid {
+	display: grid;
+	gap: 2rem;
+
+	@include tablet {
+		&.two-col {
+			grid-template-columns: repeat(2,1fr);
+		}
+	}
+}
+

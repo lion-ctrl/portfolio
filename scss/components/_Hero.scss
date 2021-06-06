@@ -1,0 +1,29 @@
+.hero {
+    min-height: 100vh;
+    background: url('/img/header.jpg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .hero__name h1 {
+        font-size: 3rem;
+        color: $primary;
+        font-weight: 500;
+
+        @include tablet {
+            font-size: 4rem;
+        }
+
+        & span {
+            font-size: 4rem;
+            font-weight: 700;
+            display: block;
+
+            @include tablet {
+                font-size: 6rem;
+            }
+        }
+    }
+}

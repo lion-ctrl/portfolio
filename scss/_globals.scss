@@ -24,6 +24,7 @@ a {
 img {
 	max-width: 100%;
 	display: block;
+	margin: 0;
 }
 
 .container {
@@ -37,6 +38,10 @@ img {
     color: $secondary;
     margin-bottom: 5rem;
 	font-size: 3rem;
+
+	&.white {
+		color: $primary
+	}
 }
 
 .section {
@@ -50,6 +55,10 @@ img {
 	@include tablet {
 		&.two-col {
 			grid-template-columns: repeat(2,1fr);
+		}
+		
+		&.three-col {
+			grid-template-columns: repeat(3,1fr);
 		}
 	}
 }

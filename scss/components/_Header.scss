@@ -1,5 +1,5 @@
 .header {
-	padding: 20px;
+	padding: 30px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -8,6 +8,7 @@
 	left: 0;
 	width: 100%;
 	z-index: 1000;
+    transition: .5s ease all;
 
 	& .header__logo {
 		font-size: 3rem;
@@ -29,6 +30,12 @@
             display: none;
         }
 	}
+    & .toggle-menu.active {
+        background: url('/img/close.png');
+        background-size: 25px;
+        background-repeat: no-repeat;
+		background-position: center;
+    }
 
 	& .header__menu {
 		position: fixed;
@@ -76,4 +83,18 @@
 	& .header__menu.active {
 		transform: translateX(0);
 	}
+}
+.header.active {
+    background-color: $primary;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+
+    .header__logo,
+    .header__menu a {
+        color: $secondary;
+    }
+
+    .toggle-menu {
+        filter: invert(1);
+    }
 }

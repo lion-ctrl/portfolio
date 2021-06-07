@@ -19,7 +19,8 @@ const Project = ({project}) => {
 						<a
 							href={link.link}
 							target="_blank"
-							className="btn success"
+							rel="noopener noreferrer"
+							className="btn success radius"
 							key={index}
 						>
 							{link.title}

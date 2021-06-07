@@ -1,0 +1,47 @@
+.contact {
+	background-color: $secondary;
+
+	.social {
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: $light-black;
+			width: 60px;
+			height: 60px;
+			margin: 20px;
+			text-align: center;
+			border-radius: 100px;
+			transition: 0.3 ease all;
+
+			img {
+				width: 30px;
+				filter: invert(1);
+			}
+		}
+		.icon-container:hover a {
+			animation: icon 0.5s ease;
+		}
+	}
+}
+
+.footer {
+    background-color: $light-black;
+    color: $primary;
+    text-align: center;
+    padding: 10px;
+}
+
+@keyframes icon {
+	from {
+		transform: rotate3d(0, 0, 0, 0);
+	}
+	to {
+		transform: rotate3d(0, 1, 0, 1turn);
+	}
+}

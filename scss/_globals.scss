@@ -50,19 +50,29 @@ img {
 }
 
 // ? Components
+.btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.btn {
+		padding: 10px;
+	}
+}
 .btn {
 	color: $primary;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	text-decoration: none;
 	border: none;
-	border-radius: 30px;
 	padding: 5px 20px;
 	cursor: pointer;
 	margin: 1rem 0;
 	box-shadow: rgb(0 0 0 / 30%) 0px 4px 10px;
 	text-transform: uppercase;
 
+	&.radius {
+		border-radius: 30px;
+	}
 	&.success {
 		background-color: $success;
 	}

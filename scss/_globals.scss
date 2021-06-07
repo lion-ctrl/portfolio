@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -46,6 +47,24 @@ img {
 
 .section {
 	padding: 100px 0 50px 0;
+}
+
+.btn {
+	color: $primary;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	border-radius: 30px;
+	padding: 5px 20px;
+	cursor: pointer;
+	margin: 1rem 0;
+	box-shadow: rgb(0 0 0 / 30%) 0px 4px 10px;
+	text-transform: uppercase;
+
+	&.success {
+		background-color: $success;
+	}
 }
 
 .grid {

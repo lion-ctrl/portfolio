@@ -27,7 +27,7 @@ img {
 	display: block;
 	margin: 0;
 }
-
+// ? Utilitys
 .container {
 	max-width: 1200px;
 	width: 95%;
@@ -49,6 +49,7 @@ img {
 	padding: 100px 0 50px 0;
 }
 
+// ? Components
 .btn {
 	color: $primary;
 	display: block;
@@ -67,6 +68,36 @@ img {
 	}
 }
 
+.btn-top {
+	transform: scale(0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: $success;
+	color:$primary;
+    width: 44px;
+    height: 44px;
+    line-height: 1;
+    font-size: 1rem;
+    transition: ease all .5s;
+    z-index: 11;
+	border-radius: 50%;
+	cursor: pointer;
+
+	svg {
+		width: 2rem;
+		height: 2rem;
+	}
+}
+.btn-top.active {
+	transform: scale(1);
+
+}
+
+// ? Grid
 .grid {
 	display: grid;
 	gap: 2rem;

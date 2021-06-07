@@ -23,7 +23,7 @@ const Header = () => {
 				className={showmenu ? "header__menu active" : "header__menu"}
 				onClick={() => setShowMenu(!showmenu)}
 			>
-				<a href="#home">Home</a>
+				<a href="#home" className="selected">Home</a>
 				<a href="#about">Sobre</a>
 				<a href="#skills">Habilidades</a>
 				<a href="#projects">Projectos</a>

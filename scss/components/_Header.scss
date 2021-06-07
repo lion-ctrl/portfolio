@@ -79,6 +79,12 @@
                 }
             }
 		}
+		& a.selected {
+
+			@include tablet {
+				border-bottom: 2px solid $primary
+			}
+		}
 	}
 	& .header__menu.active {
 		transform: translateX(0);
@@ -93,6 +99,11 @@
     .header__menu a {
         color: $secondary;
     }
+	.header__menu a.selected {
+		@include tablet {
+			border-bottom: 2px solid $secondary
+		}
+	}
 
     .toggle-menu {
         filter: invert(1);

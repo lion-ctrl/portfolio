@@ -4,7 +4,7 @@ import { skills } from "../../data/data";
 const Skills = () => {
 	return (
 		<section className="skills section" id="skills">
-			<h2 className="heading white">My Skills</h2>
+			<h2 className="heading white">Mis Habilidades</h2>
 			<div className="container grid three-col">
 				{skills.map((skill, index) => (
 					<div className="skill" key={index}>

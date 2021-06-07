@@ -12,8 +12,8 @@ const Header = () => {
 
 	return (
 		<header className="header" id="header">
-			<a href="#" className="header__logo">
-				Portfolio
+			<a href="#home" className="header__logo">
+				Portafolio
 			</a>
 			<div
 				className={showmenu ? "toggle-menu active" : "toggle-menu"}
@@ -24,10 +24,10 @@ const Header = () => {
 				onClick={() => setShowMenu(!showmenu)}
 			>
 				<a href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#skills">Skills</a>
-				<a href="#projects">Projects</a>
-				<a href="#contact">Contact</a>
+				<a href="#about">Sobre</a>
+				<a href="#skills">Habilidades</a>
+				<a href="#projects">Projectos</a>
+				<a href="#contact">Contacto</a>
 			</div>
 		</header>
 	);

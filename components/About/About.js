@@ -3,26 +3,28 @@ import React from "react";
 const About = () => {
 	return (
 		<section className="about section container" id="about">
-			<h2 className="heading">About Me</h2>
+			<h2 className="heading">Sobre Mí</h2>
 			<div className="grid two-col">
 				<div className="about__text">
 					<p>
-                        I'm a Junior Software Engineer using technologies like Typescript,
-						Tailwind CSS, React Hooks, GraphQL, Nodejs, PHP, CSS, HTML, etc.
+						Soy Ingeniero de software junior que usa tecnologías como
+						Typescript, Tailwind CSS, React Hooks, GraphQL, Nodejs, PHP, CSS,
+						HTML, etc.
 					</p>
 					<br />
 					<p>
-						I seek to grow within the technology industry by contributing my
-						knowledge and creativity to be able to create technology that
-						changes the world in one way or another. My soft skills and
-						communication skills are pretty good, which is pretty important not
-						only in the workplace, but at all times.{" "}
+						Busco crecer dentro de la industria de la tecnología aportando mi
+						conocimiento y creatividad para poder crear tecnología que cambie el
+						mundo de una manera u otra. Mis habilidades blandas y de
+						comunicación son bastante buenas, lo cual es bastante importante no
+						solo en el lugar de trabajo, sino en todo momento.{" "}
 					</p>
 					<br />
 					<p>
-						I am self-taught, proactive and a loyal advocate that the best way
-						to work is to work efficiently, not work hard. My fundamentals in
-						computing and software architecture are pretty solid and broad.
+						Soy autodidacta, proactivo y una defensor de que la mejor
+						manera de trabajar es trabajar de manera eficiente, no trabajar
+						duro. Mis fundamentos en computación y arquitectura de software son
+						bastante sólidos y amplios.
 					</p>
 				</div>
 				<div className="about__img">

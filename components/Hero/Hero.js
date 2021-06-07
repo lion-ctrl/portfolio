@@ -54,7 +54,7 @@ const Hero = () => {
 		<section className="hero" id="home">
 			<div className="container hero__name">
 				<h1>
-					Hello, I'm <span>Leonardo Socorro</span>
+					<span>Leonardo Socorro</span> Programador
 				</h1>
 				<p className="typing-text">
 					<span className="typed-text"></span>

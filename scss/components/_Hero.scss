@@ -8,6 +8,7 @@
     align-items: center;
 
     & .hero__name h1 {
+        margin: 0;
         font-size: 3rem;
         color: $primary;
         font-weight: 500;
@@ -17,7 +18,7 @@
         }
 
         & span {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 700;
             display: block;
 

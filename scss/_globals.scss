@@ -4,6 +4,16 @@ html {
 	scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: $success;
+}
+
 *,
 *::before,
 *::after {

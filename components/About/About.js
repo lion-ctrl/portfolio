@@ -13,18 +13,16 @@ const About = () => {
 					</p>
 					<br />
 					<p>
-						Busco crecer dentro de la industria de la tecnología aportando mi
-						conocimiento y creatividad para poder crear tecnología que cambie el
-						mundo de una manera u otra. Mis habilidades blandas y de
-						comunicación son bastante buenas, lo cual es bastante importante no
-						solo en el lugar de trabajo, sino en todo momento.{" "}
+						Busco crecer dentro de la industria de la tecnología aportando mis
+						conocimientos y creatividad. Mis habilidades blandas y comunicación
+						son muy buenas, lo cual es importante no solo en el lugar de
+						trabajo, sino en todo momento.{" "}
 					</p>
 					<br />
 					<p>
-						Soy autodidacta, proactivo y una defensor de que la mejor
-						manera de trabajar es trabajar de manera eficiente, no trabajar
-						duro. Mis fundamentos en computación y arquitectura de software son
-						bastante sólidos y amplios.
+						Soy autodidacta, proactivo y defensor de que la mejor manera de
+						trabajar es de manera eficiente, no trabajar duro. Mis fundamentos
+						en informática y arquitectura de software son sólidos y amplios.
 					</p>
 				</div>
 				<div className="about__img">
